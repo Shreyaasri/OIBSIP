@@ -33,21 +33,25 @@ The project uses the built-in Iris dataset from Scikit-learn.
 - Seaborn
 
 ## Machine Learning Models
+
 1. Logistic Regression
-2. K-Nearest Neighbors (KNN)
+2. Decision Tree Classifier
 
 ## Results
 
 | Model | Accuracy |
 |---|---:|
-| Logistic Regression | 96.67% |
-| KNN | 100.00% |
+| Logistic Regression | 93.33% |
+| Decision Tree Classifier | 93.33% |
 
-These results are from the current 80/20 train-test split with `random_state=42`. Accuracy may vary with a different split or dataset.
+Both models achieved the same accuracy on the current test dataset. Results may vary with different train-test splits or datasets.
 
 ## Visualizations
+
 - `confusion_matrix.png` — Confusion matrix for Logistic Regression.
 - `model_comparison.png` — Accuracy comparison between both models.
+- `decision_boundary.png` — Decision boundary visualization.
+
 
 ## How to Run
 
